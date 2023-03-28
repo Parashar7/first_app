@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: frib. series
       id: hello
-      uses: actions/setup-java@v3
+      uses: actions/first_app@v1
       with:
         who-to-greet: devops
 
