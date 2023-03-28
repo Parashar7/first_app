@@ -24,7 +24,7 @@ jobs:
       run: mvn --batch-mode deploy
       
     - name: Build with Maven
-    run: mvn -B package --file pom.xml
+      run: mvn -B package --file pom.xml
       
       env:
         GITHUB_TOKEN: ${{ github.token }}
